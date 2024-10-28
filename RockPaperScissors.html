@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="RockPaperScissors.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+</head>
+<body>
+    <h1>(:Ultimate Rock Paper Scissors:)</h1>
+    <h2>Rock: ○ Paper: ▢ Scissors: ✂ Redo: ↻</h2>
+
+    <div class="button-container">
+        <button class="rockclass" ><img class="eachiconbutton"  src="SVGforRPS/circle_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"></button>
+        <button class="paperclass"> <img class="eachiconbutton"   src="SVGforRPS/crop_square_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"></button>
+        <button  class="scissorsclass"><img  class="eachiconbutton"   src="SVGforRPS/content_cut_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"></button>
+        <button class="resetscoreclass"> <img  class="eachiconbutton"  src="SVGforRPS/undo_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"> </button>
+    </div>
+
+    <div class="auto-play-div">
+        <button class="auto-play-button" onclick="
+            autoPlay();
+            ">
+            Auto Play
+        </button>
+    </div>
+    
+    <div class="alertdiv">
+        <p class="alertdivp">
+
+        </p>
+    </div>
+    <div class="scorediv">
+        <p class="scoredivp">
+
+        </p>
+
+    </div>
+
+    <script src="RockPaperScissors.js"></script>
+
+</body>
+</html>

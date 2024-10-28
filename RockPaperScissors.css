@@ -1,0 +1,85 @@
+p {
+    color: rgb(50, 50, 50);
+}
+body {
+    background-color: rgb(195, 224, 250);
+}
+* {
+    font-family: "Archivo Black", sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 100px;
+    color: rgb(189, 70, 102);
+}
+h2 {
+    text-align: center;
+    color: rgb(70, 70, 181);
+}
+button {
+    padding: 100px;
+    margin: 10px;
+    width: 25%;
+    border-radius: 10px;
+    border-width: .1px;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+img {
+    width: 6em;
+}
+.rockclass {
+    background-color: rgb(189, 70, 102);
+}
+.paperclass {
+    background-color: rgb(82, 137, 82);
+}
+.scissorsclass {
+    background-color: rgb(70, 70, 181);
+}
+.resetscoreclass {
+    background-color: rgb(190, 190, 65);
+}
+
+.rockclass:hover {
+    background-color: rgba(189, 70, 102, .8);
+    transition: 1s;
+}
+.paperclass:hover {
+    background-color: rgba(82, 137, 82, .8);
+    transition: 1s;
+}
+.scissorsclass:hover {
+    background-color: rgba(70, 70, 181, .8);
+    transition: 1s;
+}
+.resetscoreclass:hover {
+    background-color: rgba(190, 190, 65, .8);
+    transition: 1s;
+
+}
+.auto-play-button {
+    width: 100%;
+}
+
+.auto-play-button {
+    background-color: skyblue;
+    font-weight: bold;
+}
+
+.auto-play-button:hover {
+    background-color: rgba(135, 206, 235, .8);
+    transition: 1s;
+}

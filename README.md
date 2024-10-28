@@ -1,1 +1,4 @@
 # RockPaperScissors
+
+
+This is programmed in HTML, CSS, and Functionality with JS. I programmed this freshman year of collge. In this algorithm I utilized the random module to generate a random number from 0 to 1.JS has built in onlick methods that call functions that refer to the JavaScript code. Every time a button is pressed the computer generates a random numeber, and If the random number is from 0 to 1/3. The computer returns rock. If the random number is from 1/3 to 2/3. The computer returns paper. Otherwise the computer will return scissors. The program then compares your input with the computer input and keeps track of score through a database.
